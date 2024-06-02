@@ -7,13 +7,13 @@
   "notification": true,
   "approval": false,
   "BOTNAME": "🤖💭Eren Yeager💦💨",
-  "PREFIX": "-",
+  "PREFIX": "/",
   "OPERATOR": [
     "",
     ""
   ],
   "ADMINBOT": [
-    "100063504903833",
+    "100000300344901",
     ""
   ],
   "OWNER": ["100000959749712"], 
