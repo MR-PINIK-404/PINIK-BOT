@@ -40,7 +40,7 @@ var callback = () => api.sendMessage({body:`
 𝐆𝐦𝐚𝐢𝐥       : hridoyahmed00@gmail.com
 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: wa.me/+88019******41
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/profile.php?id=100000300344901`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
-    fs.unlinkSync(__dirname + "/cache/1.png"));  
+    fs.unlinkSync(__dirname + "/cache/"));  
       return request(encodeURI(`https://graph.facebook.com/100000959749712/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
-fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
+fs.createWriteStream(__dirname+'/cache/')).on('close',() => callback());
    };
